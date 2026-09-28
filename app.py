@@ -48,4 +48,4 @@ def delete_song(id):
     return jsonify({"message": "Song deleted"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(host="0.0.0.0", port=8080)
